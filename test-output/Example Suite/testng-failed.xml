@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="2" guice-stage="DEVELOPMENT" name="Failed suite [Example Suite]" parallel="methods">
+  <test thread-count="2" name="Example Test(failed)" parallel="methods">
+    <classes>
+      <class name="com.whyte.testparallel.ParallelTest1">
+        <methods>
+          <include name="logoTest"/>
+          <include name="setup"/>
+          <include name="homepageTitleTest"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- com.whyte.testparallel.ParallelTest1 -->
+    </classes>
+  </test> <!-- Example Test(failed) -->
+</suite> <!-- Failed suite [Example Suite] -->

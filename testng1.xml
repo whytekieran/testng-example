@@ -1,0 +1,19 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Example Suite 1">
+  <test name="Example Test 1">
+    <classes>
+      <class name="com.whyte.test.TC1">
+      	<methods>
+      		<include name="test1"/>
+      		<include name="test2"/>
+      	</methods>
+      </class>
+      <class name="com.whyte.test.TC2">
+      	<methods>
+      		<include name="test3"/>
+      		<include name="test4"/>
+      	</methods>
+      </class>
+    </classes>
+  </test>
+</suite>

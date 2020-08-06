@@ -1,0 +1,19 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Example Suite">
+  <test name="Example Test">
+  
+  <!-- for xml style lister add below -->
+  
+  <!-- 
+  <listeners class-name="com.whyte.listeners.CustomListener">
+  	<listener>
+  
+  	</listener>
+  </listeners> 
+  -->
+  
+    <classes>
+      <class name="com.whyte.listeners.ListenerTest"/>
+    </classes>
+  </test>
+</suite>

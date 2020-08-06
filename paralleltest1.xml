@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<!-- If you want to run parallel class just change to  parallel="classes" and add the other class entry
+you could also have multiple <test> inside <suite> then change parallel="tests"-->
+<suite name="Example Suite" parallel="methods" thread-count="2">
+  <test name="Example Test">
+    <classes>
+      <class name="com.whyte.testparallel.ParallelTest1"/>
+    </classes>
+  </test>
+</suite>

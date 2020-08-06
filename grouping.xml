@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Example Suite Group">
+  <test name="Example Test Group">
+  
+  	<groups>
+  		<run>
+  			<include name="sanity"/>
+  		</run>
+  	</groups>
+  
+    <classes>
+      <class name="com.whyte.test.GroupingExample"/>
+    </classes>
+  </test>
+</suite>
